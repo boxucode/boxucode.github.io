@@ -9,6 +9,7 @@ self.addEventListener('install', (e) => {
       '/PWA-test00/images/cat2.jpg',
       '/PWA-test00/images/cat3.jpg',
       '/PWA-test00/images/cat4.jpg',
+      '/PWA-test00/images/cat5.jpg',
     ])),
   );
 });
