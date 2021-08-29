@@ -15,7 +15,7 @@ setInterval(() => {
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('/a2hs/sw.js')
+    .register('/PWA-test00/sw.js')
     .then(() => { console.log('Service Worker Registered'); });
 }
 
@@ -41,9 +41,9 @@ window.addEventListener('beforeinstallprompt', (e) => {
     // Wait for the user to respond to the prompt
     deferredPrompt.userChoice.then((choiceResult) => {
       if (choiceResult.outcome === 'accepted') {
-        console.log('User accepted the A2HS prompt');
+        console.log('User accepted the PWA-test00 prompt');
       } else {
-        console.log('User dismissed the A2HS prompt');
+        console.log('User dismissed the PWA-test00 prompt');
       }
       deferredPrompt = null;
     });

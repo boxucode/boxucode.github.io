@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "Shows random cat pictures.",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/cat-icon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    }
+  ],
+  "name": "Awesome fox pictures",
+  "short_name": "Cats",
+  "start_url": "/PWA-test00/index.html"
+}
