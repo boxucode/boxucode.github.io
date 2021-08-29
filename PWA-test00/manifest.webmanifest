@@ -9,7 +9,7 @@
       "type": "image/png"
     }
   ],
-  "name": "Awesome cat pictures",
+  "name": "Cat pictures",
   "short_name": "Cats",
   "start_url": "/PWA-test00/index.html"
 }
